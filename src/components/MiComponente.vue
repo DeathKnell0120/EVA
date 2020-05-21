@@ -52,7 +52,7 @@
     <footer class="footer">
       <div class="footer_content">
         <div class="footer_logo" align="center">
-          <a href="#">{{contacto}}</a>
+          <a class="footer_message" href="#">{{contacto}}</a>
         </div>
         <div class="footer_social">
           <ul>

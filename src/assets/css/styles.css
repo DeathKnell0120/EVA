@@ -1,15 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mystery+Quest&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 /*estilo de los servicios*/
 #tituloServices {
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Righteous', cursive;
     color: honeydew;
+    font-size: 60px;
 }
 #misServicios{
     color: #ffa601;
+    font-family: 'Anton', sans-serif;
    }
+#misServicios, p {
+    margin: 15px;
+    
+}
 
-   
+html, body {
+    font-family: 'Mogra', cursive;
+    font-size: 22px;
+}
+template h1 {
+    font-family: 'Mogra', cursive;
+}
+  
 .service-section .row {
     color: honeydew;
     align-content: center;
@@ -19,7 +37,8 @@
 .service-box {
     margin-bottom: 50px;
     margin-top: 30px;
-    background-color: indigo;
+    background-color: #011e1a;
+    border-radius: 8px;
 }
 
 .service-box .sb-icon {
@@ -68,7 +87,8 @@
 .service-box .readmore {
     font-size: 12px;
     font-weight: 700;
-    color: #222222;
+    margin-left: 4px;
+    color: #4d4d4d;
     display: inline-block;
     padding: 2px 0;
     background-color: transparent;
@@ -98,8 +118,8 @@
     .service-box{
         background-color: hotpink;
     }
-  }
-  
+}
+
 
 /****************************************/
 body {
@@ -109,7 +129,8 @@ body {
 #estaimg {
     display: block;
     margin: auto;
-    height: 350px;
+    height: 550px;
+    width: 950px;
     margin-bottom: 20px;
     margin-top: 30px;
 }
@@ -121,17 +142,16 @@ body {
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     margin-top: 30px;
     text-align: center;
     align-content: center;
 }
 
 .navbar{
-	background: #000000;  /* fallback for old browsers */
+    background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    
 }
 .footer_content {
     padding-top: 50px;
@@ -140,7 +160,7 @@ body {
 }
 
 .footer_logo a {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Righteous', cursive;
     font-size: 20px;
     font-weight: 700;
     color: rgb(255, 115, 0);
@@ -149,12 +169,21 @@ body {
     line-height: 0.75;
 }
 
-.footer_social {
+.footer_social  {
     margin-top: 34px;
 }
+.footer_social ul a img{
+    align-self: center;
+    border-radius: 10px;
+    display: flexbox;
+    align-self: center;
+    justify-self: center;
+}
+
 
 /*hello*/
 #carouselExampleIndicators {
+    width: 90%;
     margin-top: 50px;
     animation: 5s;
     z-index: 0;
@@ -163,19 +192,34 @@ body {
 .carousel-inner {
     border-radius: 30px;
 }
+.carousel-control-prev, .carousel-control-prev-icon {
+    margin-top: 170px;
+    height: 30%;
+    width: 20%;
+}
+.carousel-control-next, .carousel-control-next-icon {
+    margin-top: 160px;
+    height: 30%;
+    width: 20%;
+}
+
+
 
 .hello {
-    width: 82%;
+    display: flexbox;
+    flex: 1;
     align-content: center;
     margin: 0px auto;
 }
 
 #app {
+    font-family: 'Mogra', cursive;
     align-content: center;
 }
 
 #miTitulo {
     color: ivory;
+    font-family: 'Righteous', cursive;
 }
 
 /*configuracion del msion y vision*/
@@ -204,7 +248,11 @@ body {
 }
 /*frase inicial*/
 #miFrase {
-    font-family: 'Lobster', cursive;
+    height: 30%;
+    width: 70%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    font-family: 'Mystery Quest', cursive;
     color: rgb(255, 255, 255);
 }
 
@@ -213,11 +261,19 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 1;
+    z-index: 1;
+    height: 110px;
   }
+.navbar-brand img {
+    height: 10%;
+    width: 30%;
+    margin: 5px;
+
+}
 
   #BarNavega{
     margin-bottom: 80px;
+   
   }
 
   #botonArriba{
