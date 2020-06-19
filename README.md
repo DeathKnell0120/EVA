@@ -1,4 +1,4 @@
-# evaweb
+# paginaeva
 
 ## Project setup
 ```
@@ -14,10 +14,7 @@ npm run serve
 ```
 npm run build
 ```
-### Deploy 
-```
-firebase deploy
-```
+
 ### Lints and fixes files
 ```
 npm run lint
