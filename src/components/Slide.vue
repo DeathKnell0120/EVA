@@ -16,7 +16,6 @@
         img-src="https://i.pinimg.com/originals/2b/75/34/2b7534a13579dcab2cea020c51b60105.jpg">
          <h1 id="txt1"><b>Somos una empresa lider en consultoria y asesoramiento para tu negocio</b></h1>
          <h4 id="txt2">Nos encargamos de todas tus necesidades</h4>
-         <a href="#"><br><h2 id="txt3">Nuestros Servicios</h2><br></a>
          </b-carousel-slide>
 
       <!-- Slides with custom text -->
@@ -24,14 +23,12 @@
       img-src="https://fondosmil.com/fondo/30534.jpg">
       <h1 id="txt1"><b>Somos una empresa lider en consultoria y asesoramiento para tu negocio</b></h1>
          <h4 id="txt2">Nos encargamos de todas tus necesidades</h4>
-         <a href="#"><br><h2 id="txt3">Nuestros Servicios</h2><br></a>
       </b-carousel-slide>
 
       <!-- Slides with image only -->
       <b-carousel-slide img-src="https://images2.alphacoders.com/900/900075.png">
       <h1 id="txt1"><b>Somos una empresa lider en consultoria y asesoramiento para tu negocio</b></h1>
          <h4 id="txt2">Nos encargamos de todas tus necesidades</h4>
-         <a href="#"><br><h2 id="txt3">Nuestros Servicios</h2><br></a>
       </b-carousel-slide>
 
     </b-carousel>
