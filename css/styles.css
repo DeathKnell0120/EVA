@@ -1,0 +1,10 @@
+@import './stylesServices.css';
+@import './stylesFooter.css';
+@import './stylesSlide.css';
+
+
+body{
+  background-color: #000000;
+  z-index: 0;
+  position: relative;
+}

@@ -1,0 +1,140 @@
+.slider {
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+    flex-basis:350px;
+    margin-top: 30px;
+    
+  }
+  
+  .slides {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    text-align: left;
+    margin-top: 30px;
+    border-radius: 3px;
+    /*
+    scroll-snap-points-x: repeat(300px);
+    scroll-snap-type: mandatory;
+    */
+  }
+  .slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    
+  }
+  .slides::-webkit-scrollbar-thumb {
+    background: #929683;
+    border-radius: 10px;
+  } 
+  .slides::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 350px;
+    height: 300px;
+    margin-right: 50px;
+    
+    background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+  .slider > a {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: rgb(255, 254, 254);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 0.5rem 0;
+    position: relative;
+  }
+  .slider > a:active {
+    top: 1px;
+  }
+  .slider > a:focus {
+    background: rgb(85, 85, 85);
+  }
+  
+  .slide-1{
+    padding-right: 50px;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer
+  {
+    background-color: #86bcb7;
+    
+  }
+  
+  .about-us{
+    flex-basis:250px;
+    text-align: left;
+    color: aliceblue;
+    margin-right: 150px;
+    margin-top: 30px;
+  }
+  
+  .social{
+    flex-basis:250px;
+    margin-left: 150px;
+    margin-top: 30px;
+  }
+  
+  #fb{
+    margin-right: 40px;
+  }
+
+  #twit{
+    margin-right: 40px;
+  }
+  
+  h4{
+    color: #666666;
+    font-size: 25px;
+  }
+  
+  #otros{
+    margin-top: 40px;
+  }
+  
+  #miMision{
+      padding-left: 40px;
+      margin-right: 30px;
+      
+  }
+  
+  #miVision{
+    padding-left: 40px;
+    margin-right: 30px;
+  }
+  
+  #miGolden{
+    padding-left: 40px;
+    margin-right: 30px;
+  }
+  
+  
+  /*Responsive*/
+  
