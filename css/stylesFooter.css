@@ -84,7 +84,10 @@ background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, F
   
   .footer
   {
-    background-color: #86bcb7;
+    background: #4ECDC4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4c87c5, #48948f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #699ed8, #549e99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     
   }
   
